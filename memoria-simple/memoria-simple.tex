@@ -1,0 +1,69 @@
+\documentclass[spanish,11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\usepackage{vmargin}
+\usepackage{subfigure}
+\usepackage{blindtext}
+
+\setpapersize{A4}
+\setmargins{2.5cm}       % margen izquierdo
+{1.5cm}                  % margen superior
+{16.5cm}                 % anchura del texto
+{23.42cm}                % altura del texto
+{10pt}                   % altura de los encabezados
+{1cm}                    % espacio entre el texto y los encabezados
+{0pt}                    % altura del pie de página
+{2cm}                    % espacio entre el texto y el pie de página
+
+
+\title{}
+\date{\today}
+\author{Víctor Galvín Coronil}
+
+\renewcommand*\contentsname{Índice}
+
+\begin{document}
+
+\tableofcontents
+
+\newpage
+
+   \begin{center}
+      \Huge{Título del documento}\\[0.5cm]
+      \large\today \\[0.5cm]
+      \large Víctor Galvín Coronil\\[1cm]      
+   \end{center}
+
+
+\section{Section}
+\blindtext
+
+\subsection{Subsection}
+
+\begin{itemize}
+\item item1
+\item item2
+\item item3
+\end{itemize}
+
+\begin{figure}[!h]
+	\includegraphics[width=350px]{example-image}
+	\centering
+\end{figure}
+
+\newpage
+\renewcommand{\refname}{Bibliografía}
+\begin{thebibliography}{X}
+	\bibitem{Baz} \textsc{Klaus Finkenzeller},
+	\textit{RFID Handbook}, tercera edición, 2010
+	\bibitem{Dan} \textsc{Youbok Lee, Ph.D.} , \textsc{Microchip Technology Inc.},
+	\textit{Antenna Circuit Design for RFID Applications}.
+	\bibitem{Dan} \textsc{Priority 1 Design, Electronics Design and Manufacture},
+	\textit{EM4100 Protocol description}.
+\end{thebibliography}
+
+\end{document}
+
