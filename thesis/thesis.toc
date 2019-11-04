@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}% 
+\contentsline {chapter}{\numberline {2}M\IeC {\'e}todos}{3}{chapter.2}% 
+\contentsline {chapter}{\numberline {3}Pruebas y mediciones}{5}{chapter.3}% 
+\contentsline {chapter}{\numberline {4}Resultados y conclusiones}{7}{chapter.4}% 
+\contentsline {chapter}{\numberline {A}C\IeC {\'o}digo}{9}{appendix.Alph1}% 
+\contentsline {section}{\numberline {A.1}Sistemas de Control. \textit {control\_systems.h}}{9}{section.Alph1.1}% 

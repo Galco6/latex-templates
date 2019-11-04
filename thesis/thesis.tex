@@ -1,0 +1,158 @@
+\documentclass[a4paper,openright,12pt]{book}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage[a4paper]{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{subfigure}
+\usepackage{svg}
+\usepackage{tcolorbox}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{adjustbox}
+\usepackage{colortbl}
+\usepackage{eurosym} % para el euro
+\usepackage{pdfpages}
+\usepackage{xcolor}
+\usepackage{blindtext}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LO]{\nouppercase{\rightmark}} % En las páginas impares, parte izquierda del encabezado, aparecerá el nombre de capítulo
+\fancyhead[RE]{\leftmark} % En las páginas pares, parte derecha del encabezado, aparecerá el nombre de sección
+\fancyhead[RO,LE]{\textbf{\thepage}} % Números de página en las esquinas de los encabezados
+\lstdefinestyle{customc}{
+  belowcaptionskip=1\baselineskip,
+  backgroundcolor=\color[HTML]{F0F0F0}, % color de fondo
+  breaklines=true,
+  frame=L,
+  xleftmargin=\parindent,
+  language=C,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+}
+
+\lstdefinestyle{customasm}{
+  belowcaptionskip=1\baselineskip,
+  frame=L,
+  xleftmargin=\parindent,
+  language=[x86masm]Assembler,
+  basicstyle=\footnotesize\ttfamily,
+  commentstyle=\itshape\color{purple!40!black},
+}
+
+\lstset{escapechar=@,style=customc}
+
+\setpapersize{A4}
+\setmargins{3cm}       % margen izquierdo
+{2.5cm}                  % margen superior
+{14.5cm}                 % anchura del texto
+{21.42cm}                % altura del texto
+{10pt}                   % altura de los encabezados
+{1cm}                    % espacio entre el texto y los encabezados
+{0pt}                    % altura del pie de página
+{2.5cm}                  % espacio entre el texto y el pie de página
+
+\setcounter{secnumdepth}{3} % para que ponga 1.1.1.1 en subsubsecciones
+
+\setcounter{tocdepth}{3} % para que ponga subsubsecciones en el indice
+\begin{document}
+\begin{titlepage}
+\newlength{\originalVOffset}
+ \newlength{\originalHOffset}
+ \setlength{\originalVOffset}{\voffset}   
+ \setlength{\originalHOffset}{\hoffset}
+
+ \setlength{\voffset}{0cm}
+ \setlength{\hoffset}{0cm}
+ \includepdf[pages=-]{portada-externa.pdf}
+ \setlength{\voffset}{\originalVOffset}
+ \setlength{\hoffset}{\originalHOffset}
+\end{titlepage}
+
+\begin{titlepage}
+ \setlength{\voffset}{0cm}
+ \setlength{\hoffset}{0cm}
+ \includepdf[pages=-]{primera-interna.pdf}
+ \setlength{\voffset}{\originalVOffset}
+ \setlength{\hoffset}{\originalHOffset}
+\end{titlepage}
+
+\chapter*{Declaración personal de autoría}
+\thispagestyle{empty}
+--------------------------------  con DNI  --------------------  estudiante del Grado en Ingeniería Electrónica Industrial en la Escuela Superior de Ingeniería de la Universidad de Cádiz, como autor de este documento académico titulado \textit{Configuración, implementación y mejora de un dispositivo emulador de circuitos y sistemas en tiempo real} y presentado como Trabajo Final de Grado
+\\\\\\
+DECLARO QUE\\\\
+Es un trabajo original, que no copio ni utilizo parte de obra alguna sin mencionar de forma clara y precisa su origen tanto en el cuerpo del texto como en su bibliografía y que no empleo datos de terceros sin la debida autorización, de acuerdo con la legislación vigente. Asimismo, declaro que soy plenamente consciente de que no respetar esta obligación podrá implicar la aplicación de sanciones académicas, sin perjuicio de otras actuaciones que pudieran iniciarse.
+\\\\
+En Puerto Real, a \today
+\\\\\\\\\\\\\\\\\\
+Fdo: 
+
+\chapter*{Agradecimientos}
+\thispagestyle{empty}
+\blindtext
+
+\tableofcontents{\thispagestyle{empty}}
+
+\listoffigures{\thispagestyle{empty}}
+
+\listoftables{\thispagestyle{empty}}
+
+
+\chapter{Introducción}
+\setcounter{page}{1 }
+\blindtext
+
+\chapter{Métodos}
+\blindtext
+
+\chapter{Pruebas y mediciones}
+\blindtext
+
+\chapter{Resultados y conclusiones}
+\blindtext
+
+\appendix
+\chapter{Código}
+\section{Sistemas de Control. \textit{control\_systems.h}}
+\begin{lstlisting}[frame=single]
+
+/*****************************************************
+* \brief  Calculo constantes para implementacion PID
+*
+* \param[in] none
+*
+******************************************************/
+#include <stdio.h>
+#define N 10
+
+int main()
+{
+    int i;
+
+    // Line comment.
+    puts("Hello world!");
+    
+    for (i = 0; i < N; i++)
+    {
+        printf("Example");
+    }
+
+    return 0;
+}
+\end{lstlisting}
+
+\end{document}
