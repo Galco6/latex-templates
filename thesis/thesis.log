@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.11.4)  4 NOV 2019 19:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.11.4)  5 NOV 2019 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -956,7 +956,7 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <portada-externa.pdf, id=31, 597.55246pt x 845.07718pt>
 File: portada-externa.pdf Graphic file (type pdf)
 <use portada-externa.pdf>
-Package pdftex.def Info: portada-externa.pdf  used on input line 80.
+Package pdftex.def Info: portada-externa.pdf  used on input line 81.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -964,7 +964,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./portada-externa.pdf): PDF inclusion:
 found PDF version <1.7>, but at most version <1.5> allowed
 File: portada-externa.pdf Graphic file (type pdf)
 <use portada-externa.pdf>
-Package pdftex.def Info: portada-externa.pdf  used on input line 80.
+Package pdftex.def Info: portada-externa.pdf  used on input line 81.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -977,23 +977,23 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <portada-externa.pdf, id=34, page=1, 597.55246pt x 845.07718pt>
 File: portada-externa.pdf Graphic file (type pdf)
 <use portada-externa.pdf, page 1>
-Package pdftex.def Info: portada-externa.pdf , page1 used on input line 80.
+Package pdftex.def Info: portada-externa.pdf , page1 used on input line 81.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: portada-externa.pdf Graphic file (type pdf)
 <use portada-externa.pdf, page 1>
-Package pdftex.def Info: portada-externa.pdf , page1 used on input line 80.
+Package pdftex.def Info: portada-externa.pdf , page1 used on input line 81.
 (pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
 File: portada-externa.pdf Graphic file (type pdf)
 <use portada-externa.pdf, page 1>
-Package pdftex.def Info: portada-externa.pdf , page1 used on input line 80.
+Package pdftex.def Info: portada-externa.pdf , page1 used on input line 81.
 (pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
 File: portada-externa.pdf Graphic file (type pdf)
 <use portada-externa.pdf, page 1>
-Package pdftex.def Info: portada-externa.pdf , page1 used on input line 80.
+Package pdftex.def Info: portada-externa.pdf , page1 used on input line 81.
 (pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
 File: portada-externa.pdf Graphic file (type pdf)
 <use portada-externa.pdf, page 1>
-Package pdftex.def Info: portada-externa.pdf , page1 used on input line 80.
+Package pdftex.def Info: portada-externa.pdf , page1 used on input line 81.
 (pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
 [1
 
@@ -1005,16 +1005,21 @@ Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.86 \begin{titlepage}
+                       [2
 
 ]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./primera-interna.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<primera-interna.pdf, id=62, 597.55246pt x 845.07718pt>
+<primera-interna.pdf, id=60, 597.55246pt x 845.07718pt>
 File: primera-interna.pdf Graphic file (type pdf)
 <use primera-interna.pdf>
-Package pdftex.def Info: primera-interna.pdf  used on input line 88.
+Package pdftex.def Info: primera-interna.pdf  used on input line 89.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1022,7 +1027,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./primera-interna.pdf): PDF inclusion:
 found PDF version <1.7>, but at most version <1.5> allowed
 File: primera-interna.pdf Graphic file (type pdf)
 <use primera-interna.pdf>
-Package pdftex.def Info: primera-interna.pdf  used on input line 88.
+Package pdftex.def Info: primera-interna.pdf  used on input line 89.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1032,114 +1037,137 @@ found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: /usr/bin/pdflatex (file ./primera-interna.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<primera-interna.pdf, id=65, page=1, 597.55246pt x 845.07718pt>
+<primera-interna.pdf, id=63, page=1, 597.55246pt x 845.07718pt>
 File: primera-interna.pdf Graphic file (type pdf)
 <use primera-interna.pdf, page 1>
-Package pdftex.def Info: primera-interna.pdf , page1 used on input line 88.
+Package pdftex.def Info: primera-interna.pdf , page1 used on input line 89.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: primera-interna.pdf Graphic file (type pdf)
 <use primera-interna.pdf, page 1>
-Package pdftex.def Info: primera-interna.pdf , page1 used on input line 88.
+Package pdftex.def Info: primera-interna.pdf , page1 used on input line 89.
 (pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
 File: primera-interna.pdf Graphic file (type pdf)
 <use primera-interna.pdf, page 1>
-Package pdftex.def Info: primera-interna.pdf , page1 used on input line 88.
+Package pdftex.def Info: primera-interna.pdf , page1 used on input line 89.
 (pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
 File: primera-interna.pdf Graphic file (type pdf)
 <use primera-interna.pdf, page 1>
-Package pdftex.def Info: primera-interna.pdf , page1 used on input line 88.
+Package pdftex.def Info: primera-interna.pdf , page1 used on input line 89.
 (pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88  \includepdf[pages=-]{primera-interna.pdf}
+l.89  \includepdf[pages=-]{primera-interna.pdf}
                                                
 File: primera-interna.pdf Graphic file (type pdf)
 <use primera-interna.pdf, page 1>
-Package pdftex.def Info: primera-interna.pdf , page1 used on input line 88.
+Package pdftex.def Info: primera-interna.pdf , page1 used on input line 89.
 (pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
  [1 <./primera-interna.pdf>]pdfTeX warning (ext4): destination with the same id
-entifier (name{page.2}) has been already used, duplicate ignored
+entifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 \chapter
+l.94 \chapter
              *{Declaración personal de autoría} [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 95--103
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--103
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--103
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--103
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--103
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--103
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--103
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--103
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--103
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--103
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--103
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--103
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
-[3] [4
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.105 \chapter
+              *{Agradecimientos} [3{/var/lib/texmf/fonts/map/pdftex/updmap/pdft
+ex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.105 \chapter
+              *{Agradecimientos} [4
 
 ]
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 107.
+(blindtext)                 on input line 108.
 
-[5] [6
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.109 \tableofcontents
+                      {\thispagestyle{empty}} [5]pdfTeX warning (ext4): destina
+tion with the same identifier (name{page.}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.109 \tableofcontents
+                      {\thispagestyle{empty}} [6
 
 ] (./thesis.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Try loading font information for U+msa on input line 7.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 7.
@@ -1150,9 +1178,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
- [7]
-LaTeX Info: Redefining \. on input line 110.
-LaTeX Info: Redefining \% on input line 110.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.111 \listoffigures
+                    {\thispagestyle{empty}} [7]
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
 
 
 Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
@@ -1160,7 +1193,12 @@ Make it at least 15.71667pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[8
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.111 \listoffigures
+                    {\thispagestyle{empty}} [8
 
 ] (./thesis.lof
 LaTeX Info: Redefining \. on input line 1.
@@ -1169,10 +1207,20 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
- [9]
-LaTeX Info: Redefining \. on input line 112.
-LaTeX Info: Redefining \% on input line 112.
- [10
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.113 \listoftables
+                   {\thispagestyle{empty}} [9]
+LaTeX Info: Redefining \. on input line 113.
+LaTeX Info: Redefining \% on input line 113.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.113 \listoftables
+                   {\thispagestyle{empty}} [10
 
 ] (./thesis.lot
 LaTeX Info: Redefining \. on input line 1.
@@ -1181,122 +1229,87 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write9
 \openout9 = `thesis.lot'.
 
- [11]
-LaTeX Info: Redefining \. on input line 115.
-LaTeX Info: Redefining \% on input line 115.
- [12
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.117 \chapter
+              {Introducción} [11]
+LaTeX Info: Redefining \. on input line 117.
+LaTeX Info: Redefining \% on input line 117.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.117 \chapter
+              {Introducción} [12
 
 ]
 Cap\'{\i }tulo 1.
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 118.
+(blindtext)                 on input line 121.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.119 \chapter
-              {Métodos} [1]
-LaTeX Info: Redefining \. on input line 119.
-LaTeX Info: Redefining \% on input line 119.
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.119 \chapter
-              {Métodos} [2
+[1]
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
+ [2
 
 ]
 Cap\'{\i }tulo 2.
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 121.
+(blindtext)                 on input line 124.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.122 \chapter
-              {Pruebas y mediciones} [3]
-LaTeX Info: Redefining \. on input line 122.
-LaTeX Info: Redefining \% on input line 122.
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.122 \chapter
-              {Pruebas y mediciones} [4
+[3]
+LaTeX Info: Redefining \. on input line 125.
+LaTeX Info: Redefining \% on input line 125.
+ [4
 
 ]
 Cap\'{\i }tulo 3.
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 124.
+(blindtext)                 on input line 127.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.125 \chapter
-              {Resultados y conclusiones} [5]
-LaTeX Info: Redefining \. on input line 125.
-LaTeX Info: Redefining \% on input line 125.
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.125 \chapter
-              {Resultados y conclusiones} [6
+[5]
+LaTeX Info: Redefining \. on input line 128.
+LaTeX Info: Redefining \% on input line 128.
+ [6
 
 ]
 Cap\'{\i }tulo 4.
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 127.
+(blindtext)                 on input line 130.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.129 \chapter
-              {Código} [7]
-LaTeX Info: Redefining \. on input line 129.
-LaTeX Info: Redefining \% on input line 129.
-pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.129 \chapter
-              {Código} [8
+[7]
+LaTeX Info: Redefining \. on input line 132.
+LaTeX Info: Redefining \% on input line 132.
+ [8
 
 ]
 Ap\'{e}ndice A.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 139.
-pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.158 \end{document}
-                     [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 142.
+[9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
  (./thesis.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 1B4052F4943B7B9D25DA9022E5DDA1B0;355.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
  ) 
 Here is how much of TeX's memory you used:
- 31181 strings out of 492623
- 648063 string characters out of 6135669
+ 31180 strings out of 492623
+ 648058 string characters out of 6135669
  1081236 words of memory out of 5000000
- 34546 multiletter control sequences out of 15000+600000
+ 34547 multiletter control sequences out of 15000+600000
  10846 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,18n,95p,946b,1293s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1305,10 +1318,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on thesis.pdf (23 pages, 208995 bytes).
+Output written on thesis.pdf (23 pages, 208671 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 500000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
